@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_photos_user"
+    app:startDestination="@id/PhotosFragment">
+
+    <fragment
+        android:id="@+id/PhotosFragment"
+        android:name="com.al4gms.unspray.presentation.photos.PhotosFragment"
+        android:label="@string/toolbar_photos_section_title"
+        tools:layout="@layout/fragment_photos">
+        <action
+            android:id="@+id/action_PhotosFragment_to_photoInfoFragment"
+            app:destination="@id/photoInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/photoInfoFragment"
+        android:name="com.al4gms.unspray.presentation.photos.PhotoInfoFragment"
+        android:label="PhotoInfoFragment"
+        tools:layout="@layout/fragment_photo">
+        <argument
+            android:name="photoId"
+            app:argType="string" />
+        <deepLink
+            android:id="@+id/deepLink"
+            app:mimeType="text/html"
+            app:uri="unsplash.com/photos/{photoId}" />
+    </fragment>
+</navigation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_photos_user"
+        android:title="@string/section_name_photos"
+        android:icon="@drawable/ic_home"/>
+
+    <item android:id="@+id/menu_collections_user"
+        android:title="@string/section_name_collections"
+        android:icon="@drawable/ic_collections"/>
+
+    <item android:id="@+id/menu_profile"
+        android:title="@string/section_name_user"
+        android:icon="@drawable/ic_person"/>
+</menu>

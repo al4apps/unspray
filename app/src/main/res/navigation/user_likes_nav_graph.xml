@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menu_likes_user"
+    app:startDestination="@id/userSLikesFragment">
+
+    <fragment
+        android:id="@+id/userSLikesFragment"
+        android:name="com.al4gms.unspray.presentation.profile.photos.UserSLikesFragment"
+        android:label="UserSLikesFragment" >
+        <action
+            android:id="@+id/action_userSLikesFragment_to_userLikedPhotoInfoFragment"
+            app:destination="@id/userPhotoInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userPhotoInfoFragment"
+        android:name="com.al4gms.unspray.presentation.photos.PhotoInfoFragment"
+        android:label="PhotoInfoFragment" >
+        <argument
+            android:name="photoId"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

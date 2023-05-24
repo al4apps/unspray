@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_collections_user"
+    app:startDestination="@id/CollectionsFragment">
+    <fragment
+        android:id="@+id/CollectionsFragment"
+        android:name="com.al4gms.unspray.presentation.collections.CollectionsFragment"
+        android:label="CollectionsFragment"
+        tools:layout="@layout/fragment_collections">
+        <action
+            android:id="@+id/action_CollectionsFragment_to_collectionFragment"
+            app:destination="@id/collectionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/collectionFragment"
+        android:name="com.al4gms.unspray.presentation.collections.CollectionFragment"
+        android:label="CollectionFragment"
+        tools:layout="@layout/fragment_collection">
+        <argument android:name="collectionId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_collectionFragment_to_photoInfoFragment2"
+            app:destination="@id/photoInfoFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/photoInfoFragment2"
+        android:name="com.al4gms.unspray.presentation.photos.PhotoInfoFragment"
+        android:label="PhotoInfoFragment" >
+        <argument
+            android:name="photoId"
+            app:argType="string" />
+    </fragment>
+</navigation>

@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name" translatable="false">Unspray</string>
+
+    <!--    OnBoarding -->
+    <string name="onBoarding_1_page_title">Создавайте снимки, публикуйте, собирайте аудиторию, получайте фидбек!</string>
+    <string name="onBoarding_2_page_title">Делитесь с друзьями, собирайте коллекции</string>
+    <string name="onBoarding_3_page_title">Загружайте любимые снимки, отслеживайте статистику</string>
+    <string name="onBoarding_continue_button_text">Продолжить</string>
+
+    <!--    Authorization -->
+    <string name="auth_page_authorization_button_text">Войти через Unsplash</string>
+    <string name="auth_canceled">Аутентификация не выполнена</string>
+    <string name="auth_success">Аутентификация выполнена</string>
+
+    <!--    Bottom navigation -->
+    <string name="section_name_photos">Фотографии</string>
+    <string name="section_name_collections">Коллекции</string>
+    <string name="section_name_user">Пользователь</string>
+
+    <!--    Shorts -->
+    <string name="by" translatable="false">by</string>
+    <string name="search">Поиск</string>
+    <string name="at_mail_with_text" translatable="false">\@%1$s</string>
+
+    <!--    Item_collection (N photos variants) -->
+    <string name="n_photos_ending_with_1">%d фотография</string>
+    <string name="n_photos_ending_with_2_3_4">%d фотографии</string>
+    <string name="n_photos_ending_with_others">%d фотографий</string>
+
+    <!--    Toolbar -->
+    <string name="toolbar_photos_section_title">Лента</string>
+    <string name="toolbar_collections_section_title">Коллекции</string>
+    <string name="toolbar_profile_section_title">Профиль</string>
+    <string name="toolbar_photo_info_title">Фото</string>
+    <string name="toolbar_collection_info_title">Коллекция</string>
+    <string name="toolbar_search_mode_title">Поиск</string>
+
+    <!-- Photo Info    -->
+    <string name="download_with_count"><u>Скачать</u> (%d)</string>
+    <string name="location_text_city_or_country" translatable="false">%1$s %2$s</string>
+    <string name="location_text_city_and_country" translatable="false">%1$s, %2$s</string>
+    <string name="exif_info" translatable="false">Made with: %1$s\nModel: %2$s\nExposure: %3$s\nAperture: %4$s\nFocal Length: %5$s\nISO: %6$d
+    </string>
+    <string name="about_author_text" translatable="false">About @%1$s: \n%2$s</string>
+    <string name="share_it">Поделиться</string>
+    <string name="no_permission_toast_text">Разрешения не предоставлены</string>
+    <string name="download_started_toast">Загрузка фото началась</string>
+    <string name="photo_downloaded">Фотография загружена</string>
+    <string name="open_snackbar_action">Открыть</string>
+    <string name="no_connection_toast">Нет соединения с интернетом</string>
+
+    <!--    Collection Info -->
+    <string name="n_photos_by_author">%1$d фото @%2$s</string>
+    <string name="no_images_in_collection">Изображений не найдено</string>
+
+    <!--    Profile -->
+    <string name="photos_tab_title_on_profile">%d Фотографии</string>
+    <string name="photos_tab_title_on_profile_default">Фотографии</string>
+    <string name="likes_tab_title_on_profile">%d Понравилось</string>
+    <string name="likes_tab_title_on_profile_default">Понравилось</string>
+    <string name="collections_tab_title_on_profile">%d Коллекции</string>
+    <string name="collections_tab_title_on_profile_default">Коллекции</string>
+    <string name="download_text_on_user_photos"><u>Скачать</u></string>
+    <string name="you_have_no_photo">У вас нет фотографий</string>
+    <string name="you_have_no_liked_photo">У вас нет избранных фотографий</string>
+    <string name="you_have_no_collections">У вас нет коллекций</string>
+    <string name="no_user_info_check_connection">Нет информвции о пользователе. Проверьте соединение</string>
+    <string name="logout_are_you_sure">Вы уверены, что хотите выйти? Все локальные данные будут удалены</string>
+
+    <!--    Transitions -->
+    <string name="photo_info_transition_name" translatable="false">photo_info_detail</string>
+    <string name="photo_item_transition_name" translatable="false">photo_info_%s</string>
+    <string name="collection_item_transition_name" translatable="false">collection_info_%s</string>
+    <string name="collection_transition_name" translatable="false">collection_info</string>
+
+    <!--    Photos -->
+    <string name="no_connection_load_from_db">Нет соединения. Показаны сохранённые фотографии</string>
+    <string name="connection_is_available">Соединение восстановлено</string>
+    <string name="no_images_in_db">Фотографий не найдено</string>
+    <string name="logout">Выйти</string>
+    <string name="do_refresh_snackbar_action">Обновить страницу</string>
+
+    <!--    Search -->
+    <string name="search_hint">Начинайте вводить</string>
+
+    <!--    Exception messages -->
+    <string name="exception_missing_permissions_for_request">Нет разрешений для данного запроса на сервер</string>
+    <string name="exception_check_connection">Проверьте соединение с интернетом</string>
+    <string name="exception_unknown">Неизвестная ошибка</string>
+
+</resources>
